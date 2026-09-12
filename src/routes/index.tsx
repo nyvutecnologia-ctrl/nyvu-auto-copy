@@ -56,7 +56,7 @@ function Hero() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-3xl text-balance text-base leading-relaxed text-nyvu-gray sm:text-lg">
-          A NYVU TECNOLOGIA é uma empresa de tecnologia que licencia software de automação para
+          A NYVU TECNOLOGIA é uma empresa que licencia software de automação para
           contas pessoais na FOTMarkets. Não somos corretora, não tocamos no seu dinheiro.
         </p>
 
