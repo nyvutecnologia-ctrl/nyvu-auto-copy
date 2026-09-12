@@ -21,10 +21,12 @@ const GOOGLE_FORMS_LINK =
 
 function Logo() {
   return (
-    <div className="flex items-center gap-2">
-      <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-nyvu-neon">
-        <span className="text-lg font-extrabold text-nyvu-black">N</span>
-      </div>
+    <div className="flex items-center gap-3">
+      <img
+        src="https://placehold.co/120x40/1a1a1a/FFFFFF?text=LOGO"
+        alt="Logo NYVU TECNOLOGIA"
+        className="h-10 w-auto object-contain"
+      />
       <span className="text-lg font-bold tracking-tight text-nyvu-white">
         NYVU <span className="font-light text-nyvu-gray">TECNOLOGIA</span>
       </span>
