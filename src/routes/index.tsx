@@ -63,7 +63,9 @@ function Hero() {
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href={GOOGLE_FORMS_PLACEHOLDER}
+            href={GOOGLE_FORMS_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center justify-center gap-2 rounded-full bg-nyvu-neon px-8 py-4 text-base font-bold uppercase tracking-wide text-nyvu-black shadow-[0_0_32px_rgba(0,209,255,0.35)] transition-all duration-300 hover:bg-nyvu-neon/90 hover:shadow-[0_0_48px_rgba(0,209,255,0.55)] hover:-translate-y-0.5"
           >
             Quero Copiar a Master Agora
@@ -212,7 +214,9 @@ function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <Logo />
           <a
-            href={GOOGLE_FORMS_PLACEHOLDER}
+            href={GOOGLE_FORMS_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-nyvu-neon px-6 py-3 text-sm font-bold uppercase tracking-wide text-nyvu-black transition-all hover:bg-nyvu-neon/90 hover:shadow-[0_0_24px_rgba(0,209,255,0.35)]"
           >
             Quero Copiar a Master Agora
@@ -241,7 +245,9 @@ function Index() {
         <div className="mx-auto flex max-w-6xl items-center justify-between">
           <Logo />
           <a
-            href={GOOGLE_FORMS_PLACEHOLDER}
+            href={GOOGLE_FORMS_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden rounded-full border border-nyvu-neon px-5 py-2 text-sm font-semibold text-nyvu-neon transition-all hover:bg-nyvu-neon hover:text-nyvu-black sm:inline-flex"
           >
             Quero Copiar
