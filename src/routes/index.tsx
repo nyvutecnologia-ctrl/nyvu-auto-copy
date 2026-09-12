@@ -16,7 +16,8 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const GOOGLE_FORMS_PLACEHOLDER = "#GOOGLE_FORMS_LINK_PLACEHOLDER";
+const GOOGLE_FORMS_LINK =
+  "https://docs.google.com/forms/d/e/1FAIpQLSd04LrBHEGcuxcnOM1Z-59yxda4X28ddmcTcQw4JpfdnYvT9A/viewform?usp=publish-editor";
 
 function Logo() {
   return (
