@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Shield, Headphones, Zap, UserCheck, Smartphone, Wallet } from "lucide-react";
 import { WhatsAppFloatingButton } from "../components/WhatsAppFloatingButton";
+import nyvuLogo from "../assets/nyvu-logo.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
