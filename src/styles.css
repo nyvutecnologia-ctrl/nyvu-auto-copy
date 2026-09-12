@@ -59,6 +59,17 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  /* NYVU brand tokens */
+  --color-nyvu-black: var(--nyvu-black);
+  --color-nyvu-neon: var(--nyvu-neon);
+  --color-nyvu-white: var(--nyvu-white);
+  --color-nyvu-gray: var(--nyvu-gray);
+  --color-nyvu-whatsapp: var(--nyvu-whatsapp);
+  --color-nyvu-card: var(--nyvu-card);
+  --color-nyvu-card-border: var(--nyvu-card-border);
+
+  --font-sans: var(--font-family);
 }
 
 :root {
@@ -95,6 +106,16 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+
+  /* NYVU brand colors */
+  --font-family: "Poppins", system-ui, sans-serif;
+  --nyvu-black: #0a0a0a;
+  --nyvu-neon: #00d1ff;
+  --nyvu-white: #ffffff;
+  --nyvu-gray: #cccccc;
+  --nyvu-whatsapp: #25d366;
+  --nyvu-card: #111111;
+  --nyvu-card-border: #1f1f1f;
 }
 
 .dark {
@@ -141,4 +162,39 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@keyframes nyvu-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+    transform: scale(1.05);
+  }
+}
+
+@keyframes nyvu-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@utility animate-nyvu-pulse {
+  animation: nyvu-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@utility animate-nyvu-slide-up {
+  animation: nyvu-slide-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
