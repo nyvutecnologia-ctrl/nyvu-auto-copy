@@ -23,7 +23,7 @@ function Logo() {
   return (
     <div className="flex items-center gap-3">
       <img
-        src="https://placehold.co/120x40/1a1a1a/FFFFFF?text=LOGO"
+        src={nyvuLogo.url}
         alt="Logo NYVU TECNOLOGIA"
         className="h-10 w-auto object-contain"
       />
