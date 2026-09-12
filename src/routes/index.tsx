@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Shield, Headphones, Zap, UserCheck, Smartphone, Wallet } from "lucide-react";
 import { WhatsAppFloatingButton } from "../components/WhatsAppFloatingButton";
+import nyvuLogo from "../assets/nyvu-logo.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -23,7 +24,7 @@ function Logo() {
   return (
     <div className="flex items-center gap-3">
       <img
-        src="https://placehold.co/120x40/1a1a1a/FFFFFF?text=LOGO"
+        src={nyvuLogo.url}
         alt="Logo NYVU TECNOLOGIA"
         className="h-10 w-auto object-contain"
       />
